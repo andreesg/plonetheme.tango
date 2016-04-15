@@ -1,0 +1,20 @@
+{
+  "name": "tango",
+  "homepage": "https://github.com/andreesg/plonetheme.tango",
+  "authors": [
+    "andre@intk.com"
+  ],
+  "description": "Plone 5 theme",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
