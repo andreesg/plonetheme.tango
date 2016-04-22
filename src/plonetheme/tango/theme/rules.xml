@@ -73,13 +73,6 @@
       css:content=".documentDescription"
       css:if-content=".section-front-page" />
 
-    <!-- full-width breadcrumb -->
-    <!--<replace
-      css:theme-children="#above-content"
-      css:content-children="#viewlet-above-content"
-      />
-     <drop css:content="#portal-breadcrumbs" />-->
-
     <!-- Alert message -->
     <replace
       css:theme-children="#global_statusmessage"

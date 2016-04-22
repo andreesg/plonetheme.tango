@@ -32,7 +32,7 @@
   <drop attributes="class" css:content="#edit-bar a.pat-plone-modal" />
 
   <!-- Cut down barceloneta without just for backend UI -->
-  <rules css:if-not-content="body.viewpermission-view, body.viewpermission-none">
+  <rules css:if-not-content="body.frontend#visual-portal-wrapper">
 
     <theme href="../++theme++barceloneta/index.html" />
     <notheme css:if-not-content="#visual-portal-wrapper" />
