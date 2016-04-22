@@ -5,9 +5,9 @@
        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
        xmlns:xi="http://www.w3.org/2001/XInclude">
 
-  <xi:include href="++theme++barceloneta/backend.xml" />
+  <!--<xi:include href="++theme++barceloneta/backend.xml" />-->
 
-  <rules css:if-content="body.frontend#visual-portal-wrapper">
+  <rules>
     <theme href="index.html"/>
     <notheme css:if-not-content="#visual-portal-wrapper" />
 
@@ -112,6 +112,14 @@
       css:theme="#slider-row"
       css:if-content=".viewpermission-add-portal-content" />
 
+    <drop
+      css:theme="#front-page-slider"
+      css:if-not-content="body.frontend" />
+
+    <drop
+      css:theme="#slider-row"
+      css:if-not-content="body.frontend" />
+
 
     <!-- Central column -->
     <replace css:theme="#content-container" method="raw">
@@ -174,5 +182,7 @@
       css:content="#carousel-example-generic"
       href="/slider-images/@@slider-images" />-->
     </rules>
+
+
 
 </rules>

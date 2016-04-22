@@ -7,11 +7,16 @@
        </value>
     </records>
 
-    <records prefix="plone.bundles/plone"
+    <!-- bundle definition -->
+    <records prefix="plone.bundles/tango-bundle"
               interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-      <value key="resources" purge="false">
+      <value key="resources">
         <element>tango-main</element>
       </value>
+      <value key="enabled">True</value>
+      <value key="compile">True</value>
+      <value key="csscompilation">++theme++plonetheme.tango/css/tango-compiled.css</value>
+      <value key="last_compilation"></value>
     </records>
 
 </registry>
