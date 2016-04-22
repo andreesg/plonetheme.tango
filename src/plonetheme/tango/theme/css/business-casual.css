@@ -10,7 +10,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background: initial !important;
+    /*background: initial !important;*/
 }
 
 body.frontend {
