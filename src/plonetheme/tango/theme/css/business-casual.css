@@ -10,6 +10,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background: none !important;
 }
 
 body.frontend {
@@ -196,5 +197,9 @@ footer p {
 
 .brand-name nav {
     display: none;
+}
+
+.documentDescription {
+    color: #ffffff;
 }
 
